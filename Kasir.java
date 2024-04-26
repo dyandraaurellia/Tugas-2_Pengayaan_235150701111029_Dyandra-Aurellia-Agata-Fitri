@@ -48,14 +48,6 @@ public class Kasir {
     // menambah pesanan menu pada nomor meja
     // jika menu tidak ada dalam daftar maka tampilkan "Menu is null" 
     public void tambahPesanan(int nomorMeja, Menu menu) {
-        // int i = 0;
-        // while (i< daftarMenu.length) {
-        //     if (daftarMenu[i].equals(menu)){
-        //         daftarMeja[nomorMeja-1].setMenu(menu);
-        //     }
-        //     break;
-        // }
-        // i++;
         for (int i = 0; i < daftarMenu.length; i++) {
             if(daftarMenu[i].equals(menu)){
                 daftarMeja[nomorMeja - 1].setMenu(menu);
